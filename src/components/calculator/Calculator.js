@@ -48,7 +48,7 @@ function Calculator({ rates, fetchRates, loading }) {
                                 </div>
                             )}
                         </Field>
-                        {rates && (
+                        {rates && inputVal && (
                             <p className="form__result">
                                 <span className="form__input-val">{inputVal} грн </span>
                                 по курсу
