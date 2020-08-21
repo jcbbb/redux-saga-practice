@@ -1,0 +1,16 @@
+.nav {
+    padding: 20px 0;
+    display: flex;
+    &__items {
+        display: flex;
+        margin-left: auto;
+    }
+    &__item {
+        margin: 10px;
+    }
+    &__link {
+        color: #fff;
+        padding: 12px 24px;
+        border-radius: 9999px;
+    }
+}
